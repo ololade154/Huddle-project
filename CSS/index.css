@@ -182,22 +182,27 @@
 
   .footer {
     background-color: var(--very-dark-cyan);
-    padding: 80px 20px 40px;
+    padding: 70px 18px;
     color: var(--white);
     position: relative;
     z-index: 1;
   }
   .footer-container {
     display: flex;
-    align-items: center;
-    gap: 6rem;
+
+    flex-direction: column;
   }
   .footer-logo img {
-    height: 30px;
-    margin-bottom: 22px;
+    height: 25px;
+    margin-bottom: 10px;
   }
-  .social-media-icon,
-  .footer-links {
+  .social-media-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .social-media-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,44 +210,38 @@
   }
   .information {
     display: flex;
-    align-items: center;
-    gap: 9px;
+    gap: 5px;
+    margin-bottom: 8px;
   }
 
   .footer-links {
-    gap: 7rem;
+    align-items: flex-start;
   }
   .links li {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     font-family: 'open sans';
   }
   .information p {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'open sans';
     font-weight: 400;
+    line-height: 1.4;
   }
   .information img {
-    height: 25px;
+    height: 20px;
   }
-  .footer-info,
-  .footer-links,
-  .social-media-icon {
-    flex: 1;
-    /* border: 2px solid red; */
-  }
+
   .social-media-icon img {
     border: 2px solid white;
-    height: 40px;
-    width: 40px;
-    padding: 5px 8px;
+    height: 35px;
+    width: 35px;
+    padding: 4px 6px;
     border-radius: 50px;
   }
   .footer-copy {
-    position: absolute;
-    right: 40px;
-    bottom: 30px;
+    text-align: center;
     font-size: 14px;
     font-family: 'open sans';
   }
@@ -427,6 +426,7 @@
     display: flex;
     align-items: center;
     gap: 6rem;
+    flex-wrap: wrap;
   }
   .footer-logo img {
     height: 30px;
@@ -441,7 +441,6 @@
   }
   .information {
     display: flex;
-    align-items: center;
     gap: 9px;
   }
 
@@ -458,6 +457,8 @@
     font-size: 16px;
     font-family: 'open sans';
     font-weight: 400;
+    margin-bottom: 8px;
+    line-height: 1.5;
   }
   .information img {
     height: 25px;
@@ -466,7 +467,6 @@
   .footer-links,
   .social-media-icon {
     flex: 1;
-    /* border: 2px solid red; */
   }
   .social-media-icon img {
     border: 2px solid white;
