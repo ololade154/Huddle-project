@@ -189,12 +189,44 @@
   }
   .footer-container {
     display: flex;
-
     flex-direction: column;
   }
   .footer-logo img {
     height: 25px;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 14px;
+  }
+  .footer-logo h3 {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'open sans';
+  }
+  .information {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 9px;
+  }
+  .information p {
+    font-size: 14px;
+    font-family: 'open sans';
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .information img {
+    height: 20px;
+  }
+  .footer-links {
+    align-items: flex-start;
+  }
+  .links li {
     margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'open sans';
   }
   .social-media-icon {
     display: flex;
@@ -208,31 +240,6 @@
     justify-content: center;
     gap: 10px;
   }
-  .information {
-    display: flex;
-    gap: 5px;
-    margin-bottom: 8px;
-  }
-
-  .footer-links {
-    align-items: flex-start;
-  }
-  .links li {
-    margin-bottom: 10px;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'open sans';
-  }
-  .information p {
-    font-size: 14px;
-    font-family: 'open sans';
-    font-weight: 400;
-    line-height: 1.4;
-  }
-  .information img {
-    height: 20px;
-  }
-
   .social-media-icon img {
     border: 2px solid white;
     height: 35px;
@@ -240,7 +247,7 @@
     padding: 4px 6px;
     border-radius: 50px;
   }
-  .footer-copy {
+  .copy-right {
     text-align: center;
     font-size: 14px;
     font-family: 'open sans';
@@ -429,8 +436,20 @@
     flex-wrap: wrap;
   }
   .footer-logo img {
-    height: 30px;
+    height: 25px;
     margin-bottom: 22px;
+    align-items: center;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 14px;
+  }
+  .footer-logo h3 {
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'open sans';
   }
   .social-media-icon,
   .footer-links {
@@ -475,7 +494,7 @@
     padding: 5px 8px;
     border-radius: 50px;
   }
-  .footer-copy {
+  .copy-right {
     position: absolute;
     right: 40px;
     bottom: 30px;

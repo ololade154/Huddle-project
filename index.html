@@ -83,7 +83,8 @@
         <div class="footer-container">
           <div class="footer-info">
             <div class="footer-logo">
-              <img src="/IMAGES/logo.svg" alt="" />
+              <img src="/IMAGES/chat-dots (1).svg" alt="" />
+              <h3>Huddle</h3>
             </div>
             <div class="information">
               <img src="/IMAGES/map-pin.svg" alt="" />
@@ -95,7 +96,7 @@
             </div>
             <div class="information">
               <img src="/IMAGES/phone-call.svg" alt="" />
-              <p>09017120409</p>
+              <p>+1-543-123-4567</p>
             </div>
             <div class="information">
               <img src="/IMAGES/envelope-simple.svg" alt="" />
@@ -130,10 +131,15 @@
             </div>
           </div>
         </div>
-        <p class="footer-copy">
-          &copy; Copyright 2018 Huddle. All rights reserved.
-        </p>
+        <p class="copy-right"></p>
       </div>
     </div>
   </body>
+  <script>
+    let copyRight = document.querySelector('.copy-right');
+    let todayDate = new Date().getFullYear();
+
+    copyRight.innerHTML =
+      ' &copy copyright' + todayDate + ' ' + 'All rights reserved.';
+  </script>
 </html>
