@@ -10,7 +10,6 @@
 }
 :root {
   --pink: #ff52bf;
-  --nav-background: #edfaff;
   --white: #fff;
   --grayish-blue: #788491;
   --very-dark-cyan: #001717;
@@ -192,7 +191,7 @@
     flex-direction: column;
   }
   .footer-logo img {
-    height: 25px;
+    height: 20px;
   }
   .footer-logo {
     display: flex;
@@ -202,7 +201,7 @@
   }
   .footer-logo h3 {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 25px;
     font-family: 'open sans';
   }
   .information {
@@ -440,10 +439,11 @@
     margin-bottom: 22px;
     align-items: center;
   }
+
   .footer-logo {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 5px;
     margin-bottom: 14px;
   }
   .footer-logo h3 {
@@ -477,7 +477,7 @@
     font-family: 'open sans';
     font-weight: 400;
     margin-bottom: 8px;
-    line-height: 1.5;
+    line-height: 1.3;
   }
   .information img {
     height: 25px;
