@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic page setup -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="/CSS/index.css" />
     <title>Document</title>
   </head>
   <body>
+    <!-- Main wrapper to hold everything -->
     <div class="wrapper">
+      <!-- Navigation bar with logo and button -->
       <div class="navigation-bar">
         <div class="logo">
           <img src="/IMAGES/logo.svg" alt="huddle-logo" />
@@ -16,6 +20,7 @@
           <button>Try it Free</button>
         </div>
       </div>
+      <!-- Hero section with main heading and image -->
       <div class="hero-section">
         <div class="hero-content">
           <h1>Build The Community Your Fans Will Love</h1>
@@ -30,8 +35,10 @@
           <img src="/IMAGES/illustration-mockups.svg" alt="" />
         </div>
       </div>
+      <!-- Content section with three info blocks -->
       <div class="content">
         <div class="illustration-section">
+          <!-- First content block -->
           <div class="grow-illustration">
             <div class="grow-content">
               <h2>Grow Together</h2>
@@ -45,6 +52,7 @@
               <img src="/IMAGES/illustration-grow-together.svg" alt="" />
             </div>
           </div>
+          <!-- Second content block -->
           <div class="grow-illustration">
             <div class="grow-content">
               <h2>Flowing conversations</h2>
@@ -58,6 +66,7 @@
               <img src="/IMAGES/illustration-flowing-conversation.svg" alt="" />
             </div>
           </div>
+          <!-- Third content block -->
           <div class="grow-illustration">
             <div class="grow-content">
               <h2>Your Users</h2>
@@ -73,14 +82,17 @@
           </div>
         </div>
       </div>
+      <!-- Call-to-action section -->
       <div class="invite-section">
         <div class="invite-box">
           <h2>Ready To Build Your Community?</h2>
           <button class="invite-button">Get Started For Free</button>
         </div>
       </div>
+      <!-- Footer section -->
       <div class="footer">
         <div class="footer-container">
+          <!-- Company info with logo and contact -->
           <div class="footer-info">
             <div class="footer-logo">
               <img src="/IMAGES/chat-dots (1).svg" alt="" />
@@ -103,6 +115,7 @@
               <p>example@Huddle.com</p>
             </div>
           </div>
+          <!-- Footer navigation links -->
           <div class="footer-links">
             <div class="links">
               <ul>
@@ -119,6 +132,7 @@
               </ul>
             </div>
           </div>
+          <!-- Social media icons -->
           <div class="social-media-icon">
             <div>
               <img src="/IMAGES/facebook-f-brands (1).svg" alt="" />
@@ -135,6 +149,7 @@
       </div>
     </div>
   </body>
+  <!-- JavaScript to dynamically insert the current year in the copyright -->
   <script>
     let copyRight = document.querySelector('.copy-right');
     let todayDate = new Date().getFullYear();
